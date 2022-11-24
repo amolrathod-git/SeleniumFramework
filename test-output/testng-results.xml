@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T00:01:50 IST" name="Suite" finished-at="2022-10-12T00:02:49 IST" duration-ms="59182">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.validateLogin()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" name="validateLogin" class="amolseleniumfirstpack.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Amol">
+        <method signature="ErrorValidationsTest.validateCartProduct()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" name="validateCartProduct" class="amolseleniumfirstpack.tests.ErrorValidationsTest"/>
+      </group> <!-- Amol -->
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" name="submitOrder" class="amolseleniumfirstpack.tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2022-10-12T00:01:50 IST" name="Error validations" finished-at="2022-10-12T00:02:43 IST" duration-ms="53537">
+      <class name="amolseleniumfirstpack.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:01:50 IST" name="launchApplication" finished-at="2022-10-12T00:01:56 IST" duration-ms="6185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="validateCartProduct()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:01:56 IST" name="validateCartProduct" finished-at="2022-10-12T00:01:57 IST" duration-ms="1300" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button class="btn btn-custom"> is not clickable at point (1041,27) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-F9KQSCF', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32f5559f-6590-4ebb-ac14-a748008e7a28, clickElement {id=78d23c2b-0e8a-484f-8a2a-cde1bbe39271}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:debuggerAddress: 127.0.0.1:61843, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20368, moz:profile: C:\Users\amolr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61843/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (32f5559f-6590-4ebb-ac14-a748008e7a28)] -> css selector: [routerlink*='cart']]
+Session ID: 32f5559f-6590-4ebb-ac14-a748008e7a28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn-custom"> is not clickable at point (1041,27) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-F9KQSCF', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32f5559f-6590-4ebb-ac14-a748008e7a28, clickElement {id=78d23c2b-0e8a-484f-8a2a-cde1bbe39271}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:debuggerAddress: 127.0.0.1:61843, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20368, moz:profile: C:\Users\amolr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61843/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (32f5559f-6590-4ebb-ac14-a748008e7a28)] -> css selector: [routerlink*='cart']]
+Session ID: 32f5559f-6590-4ebb-ac14-a748008e7a28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at amolseleniumfirstpack.AbstractComponents.AbstractComponent.goToCart(AbstractComponent.java:53)
+at amolseleniumfirstpack.tests.ErrorValidationsTest.validateCartProduct(ErrorValidationsTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:01:57 IST" name="tearDown" finished-at="2022-10-12T00:01:58 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:01:58 IST" name="launchApplication" finished-at="2022-10-12T00:02:02 IST" duration-ms="4629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateCartProduct()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:02:02 IST" name="validateCartProduct" finished-at="2022-10-12T00:02:36 IST" duration-ms="34002" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at amolseleniumfirstpack.tests.ErrorValidationsTest.validateCartProduct(ErrorValidationsTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:02:37 IST" name="tearDown" finished-at="2022-10-12T00:02:38 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:02:38 IST" name="launchApplication" finished-at="2022-10-12T00:02:42 IST" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateLogin()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:02:42 IST" name="validateLogin" finished-at="2022-10-12T00:02:42 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amolseleniumfirstpack.tests.ErrorValidationsTest@21a21c64]" started-at="2022-10-12T00:02:42 IST" name="tearDown" finished-at="2022-10-12T00:02:43 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amolseleniumfirstpack.tests.ErrorValidationsTest -->
+    </test> <!-- Error validations -->
+    <test started-at="2022-10-12T00:01:50 IST" name="Submit Order Test" finished-at="2022-10-12T00:02:49 IST" duration-ms="59182">
+      <class name="amolseleniumfirstpack.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:01:50 IST" name="launchApplication" finished-at="2022-10-12T00:01:56 IST" duration-ms="5923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:01:56 IST" name="submitOrder" data-provider="getData" finished-at="2022-10-12T00:02:15 IST" duration-ms="19663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Testing123, email=amolrathod194@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:15 IST" name="tearDown" finished-at="2022-10-12T00:02:17 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:17 IST" name="launchApplication" finished-at="2022-10-12T00:02:21 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:21 IST" name="submitOrder" data-provider="getData" finished-at="2022-10-12T00:02:42 IST" duration-ms="21595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Testing123, email=amolrathod194@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:42 IST" name="tearDown" finished-at="2022-10-12T00:02:43 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:43 IST" name="launchApplication" finished-at="2022-10-12T00:02:47 IST" duration-ms="4056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:47 IST" name="OrderHistoryTest" finished-at="2022-10-12T00:02:48 IST" depends-on-methods="amolseleniumfirstpack.tests.SubmitOrderTest.submitOrder" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amolseleniumfirstpack.tests.SubmitOrderTest@524f3b3a]" started-at="2022-10-12T00:02:48 IST" name="tearDown" finished-at="2022-10-12T00:02:49 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amolseleniumfirstpack.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
